@@ -1,5 +1,5 @@
 # webext-marah
- Diverse Arten der Unterstützung für die Twitch-Streamerin Marah.
+ Diverse Arten der Unterstützung für die Twitch-Streamerin [m_a_r_a_h](https://www.twitch.tv/m_a_r_a_h).
 
 ## Development
 
