@@ -19,8 +19,6 @@ Please run the linter before committing to this repo.
 web-ext lint
 ```
 
-### Build
-
 To build the extension, run
 
 ```bash
