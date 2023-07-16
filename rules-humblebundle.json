@@ -1,0 +1,27 @@
+[
+	{
+		"id": 1,
+		"priority": 1,
+		"condition": {
+			"urlFilter": "humblebundle.com",
+			"resourceTypes": [
+				"main_frame"
+			]
+		},
+		"action": {
+			"type": "redirect",
+			"redirect": {
+				"transform": {
+					"queryTransform": {
+						"addOrReplaceParams": [
+							{
+								"key": "partner",
+								"value": "marah"
+							}
+						]
+					}
+				}
+			}
+		}
+	}
+]

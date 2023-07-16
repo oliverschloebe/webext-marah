@@ -1,0 +1,27 @@
+[
+	{
+		"id": 1,
+		"priority": 1,
+		"condition": {
+			"urlFilter": "amazon.de",
+			"resourceTypes": [
+				"main_frame"
+			]
+		},
+		"action": {
+			"type": "redirect",
+			"redirect": {
+				"transform": {
+					"queryTransform": {
+						"addOrReplaceParams": [
+							{
+								"key": "tag",
+								"value": "marah0f-21"
+							}
+						]
+					}
+				}
+			}
+		}
+	}
+]

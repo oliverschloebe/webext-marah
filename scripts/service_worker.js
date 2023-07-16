@@ -1,6 +1,6 @@
 "use strict";
 
-importScripts('browser-polyfill.min.js');
+importScripts('lib/browser-polyfill.min.js');
 
 const TITLE_OPENREFLINK = "Marah's Reflink öffnen für ";
 const APPLICABLE_HOSTS_ALL = ["amazon.de", "humblebundle.com", "www.amazon.de", "www.humblebundle.com"];
