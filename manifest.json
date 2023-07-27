@@ -2,7 +2,7 @@
   "name": "Marah Supporter",
   "description": "Diverse Arten der Unterstützung für die Twitch-Streamerin Marah.",
   "manifest_version": 3,
-  "version": "1.0.4",
+  "version": "1.0.4.1",
   "homepage_url": "https://rocketbeans.tv/bohnen/60/Marah",
   "browser_specific_settings": {
     "gecko": {
@@ -10,7 +10,7 @@
       "strict_min_version": "109.0"
     }
   },
-  "minimum_chrome_version": "91",
+  "minimum_chrome_version": "94",
   "background": {
     "service_worker": "scripts/service_worker.js"
   },

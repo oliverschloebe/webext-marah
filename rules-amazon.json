@@ -1,9 +1,35 @@
 [
 	{
 		"id": 1,
+		"priority": 2,
+		"condition": {
+			"urlFilter": "www.amazon.de",
+			"resourceTypes": [
+				"main_frame"
+			]
+		},
+		"action": {
+			"type": "redirect",
+			"redirect": {
+				"transform": {
+					"queryTransform": {
+						"addOrReplaceParams": [
+							{
+								"replaceOnly": true,
+								"key": "tag",
+								"value": "marah0f-21"
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	{
+		"id": 2,
 		"priority": 1,
 		"condition": {
-			"urlFilter": "amazon.de",
+			"regexFilter": "^https?:\/\/.*[.]amazon[.]de\/$",
 			"resourceTypes": [
 				"main_frame"
 			]
